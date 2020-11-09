@@ -55,7 +55,7 @@ public class Home2 {
                     if (i == j || i == l) a[i][j] = 1;
                     else a[i][j] = a[i][j];
 <<<<<<< HEAD
-                    System.out.print(a[i][j] + "  ");
+                    System.out.print(a[i][j] + " ");
 =======
                     System.out.print(a[i][j] + " ");
 >>>>>>> dev
@@ -82,7 +82,7 @@ public class Home2 {
                 {1, 2, 3, 4, 5},
                 {6, 7, 8, 9, 10},
                 {11, 12, 13, 14, 15},
-                {16, 17, 18, 19, 20}
+                {16, 17, 18, 19, 21}
         };
         int[][] arr5 = Diagonally(arr4);
         }
