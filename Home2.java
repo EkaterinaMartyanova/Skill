@@ -54,11 +54,8 @@ public class Home2 {
                 for (int j = 0, l = a[i].length - 1; j < a[i].length; j++, l--) {
                     if (i == j || i == l) a[i][j] = 1;
                     else a[i][j] = a[i][j];
-<<<<<<< HEAD
                     System.out.print(a[i][j] + " ");
-=======
-                    System.out.print(a[i][j] + " ");
->>>>>>> dev
+
                 }
                 System.out.print("\n");
             }
