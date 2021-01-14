@@ -1,11 +1,11 @@
 package ru.geekbrains.java_second.lesson_1;
 
-public class Cat implements Activable {
+public class Robot implements Activable{
     private final String name;
     private final int RunDistance;
     private final int JumpHeight;
 
-    public Cat(String name, int RunDistance, int JumpHeight){
+    public Robot(String name, int RunDistance, int JumpHeight){
         this.name = name;
         this.RunDistance = RunDistance;
         this.JumpHeight = JumpHeight;
@@ -30,3 +30,4 @@ public class Cat implements Activable {
 
     }
 }
+
